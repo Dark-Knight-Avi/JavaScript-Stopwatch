@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    min-width: 80%;
+    min-height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    min-width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+p{
+    font-size: 20px;
+}
